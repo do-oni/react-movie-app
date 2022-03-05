@@ -1,0 +1,43 @@
+h1 {
+  color: dimgrey;
+}
+
+h2 {
+  color: slategray;
+  font-style: italic;
+}
+
+button {
+  background: none;
+  color: silver;
+  border: 2px solid;
+  border-radius: 36px;
+  font: inherit;
+  line-height: 1;
+  margin: 0.5em;
+  padding: 1em 2em;
+  display: flex;
+  margin: 60px auto;
+  flex-wrap: wrap;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.raise:hover,
+.raise:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+p {
+  justify-content: center;
+  color: silver;
+}
+
+ul {
+  background: silver;
+  color: white;
+  padding: 20px;
+  float: left;
+  font-weight: bolder;
+}
